@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="library/css/font-awesome.css" rel="stylesheet" style="text/css"/>
+    <link href="bootstrap-demo.css" rel="stylesheet" style="text/css"/>
+    <link href="library/css/bootstrap.css" rel="stylesheet" style="text/css"/>
+    <link href="library/css/jquery.fs.wallpaper.css" rel="stylesheet" style="text/css"/>
+    <link href="library/css/animate.css" rel="stylesheet" style="text/css"/>
+    <link href="library/css/nanogallery.css" rel="stylesheet" style="text/css"/>
+    <title></title>
+  </head>
+  <body>
+      <header id="top">
+          <!--  bootstrap-components-->
+          <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="bootstrap-demo.html"><img class="demo-logo" src="icon/logo.png"/></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#activity">Activity <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#order">Order</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#recommendation">Recommendation</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+         </nav>
+      </header>
+
+      <div class="container-fluid">
+          <section class="title-row">
+              <div class="fill-screen stellar-bg" style="background-image: url(images/banner-dark.jpg);" data-stellar-background-ratio="0.2">
+                  <img src="icon/logo.png" class="img-responsive title-image"/>
+                  <div class="down-button">
+                      <a href="#activity" class="btn">
+                        <i class="fa fa-arrow-circle-down fa-4x"></i>
+                      </a>
+                  </div>
+              </div>
+          </section>
+          <!-- <div id="video-wallpaper"></div> -->
+
+          <section id="activity" class="row demo-activity">
+              <div class="col-md-4 wow fadeInDown">
+                  <img src="icon/icon-date.png"/>
+                  <p>Calender</p>
+              </div>
+              <div class="col-md-4 wow fadeInDown">
+                  <img src="icon/icon-message.png"/>
+                  <p>Message</p>
+              </div>
+              <div class="col-md-4 wow fadeInDown">
+                  <img src="icon/icon-alert.png"/>
+                  <p>Alert</p>
+              </div>
+
+          </section>
+
+          <div class="fill-screen fixed-attachment middle"></div>
+
+          <section id="order" class="row">
+
+                 <aside class="col-xs-12 visible-xs">
+                   <!-- <div class="demo-area"> -->
+                      <p>
+                        <button type="button" class="btn-scarborough">Scarborough</button>
+                        <button type="button" class="btn-markham">Markham</button>
+                        <button type="button" class="btn-northyork">North York</button>
+                        <button type="button" class="btn-richmond">Richmond Hill</button>
+                        <button type="button" class="btn-downtown">Downtown</button>
+                        <button type="button" class="btn-missi">Mississauga</button>
+                        <button type="button" class="btn-all">All</button>
+                        <button type="button" class="btn-closed">Closed</button>
+                      </p>
+                    <!-- </div> -->
+                </aside>
+                <!--  col-sm-push-8如果大于sm对应的像素，向右移变成8 -->
+                <!--  col-sm-9 col-md-8 sm像素时占9，md像素时占8-->
+                <section class="col-xs-12 col-sm-8 col-sm-push-2">
+                      <div class="demo-table">
+                        <table class="demo-res-table" cellspacing="0" cellpadding="0" >
+                          <thead>
+                              <tr>
+                                  <th> RID </th>
+                                  <th> NAME </th>
+                                  <th> ADDRESS </th>
+                                  <th> TELEPHONE </th>
+                                  <th> OPEN HOUR </th>
+                                  <th> EDIT </th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td> 4 </td>
+                                  <td> 老汤家(Scarborough) </td>
+                                  <td> 3380 Midland Ave, Scarborough, M9U 8Y7 </td>
+                                  <td> 905540283 </td>
+                                  <td>12:00 ~ 22:00</td>
+                                  <td><input type="image" class="demo-table-edit" src="icon/icon-edit.png"/></td>
+                              </tr>
+                              <tr>
+                                  <td> 6 </td>
+                                  <td> Jacob </td>
+                                  <td> Nilson </td>
+                                  <td> jac123 </td>
+                                  <td></td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td> 8 </td>
+                                  <td> Larry </td>
+                                  <td> Cooper </td>
+                                  <td> lar </td>
+                                  <td></td>
+                                  <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                      </div>
+
+                </section>
+                <aside class="col-xs-12 col-sm-2 col-sm-pull-8 iconbar">
+
+                    <div class="demo-options">
+                        <div class="demo-icon-list">
+                            <img src="icon/icon-home.png"/>
+                            <h5>HOME</h5>
+                        </div>
+                        <div class="demo-icon-list">
+                            <img src="icon/icon-restaurant.png"/>
+                            <h5>RESTAURANT</h5>
+                          </div>
+                        <div class="demo-icon-list">
+                            <img src="icon/icon-service.png"/>
+                            <h5>SERVICE</h5>
+                        </div>
+                        <div class="demo-icon-list">
+                            <img src="icon/icon-driver.png"/>
+                            <h5>DRIVER</h5>
+                        </div>
+
+                    </div>
+                </aside>
+                <!--  visivle-lg只有lg时出现-->
+                <aside class="col-sm-2 visible-sm visible-md visible-lg">
+                    <div class="demo-area">
+                      <p>
+                        <button type="button" class="btn-scarborough">Scarborough</button>
+                        <button type="button" class="btn-markham">Markham</button>
+                        <button type="button" class="btn-northyork">North York</button>
+                        <button type="button" class="btn-richmond">Richmond Hill</button>
+                        <button type="button" class="btn-downtown">Downtown</button>
+                        <button type="button" class="btn-missi">Mississauga</button>
+                        <button type="button" class="btn-all">All</button>
+                        <button type="button" class="btn-closed">Closed</button>
+                      </p>
+                    </div>
+                </aside>
+
+            </section>
+
+          <section class="row" id="recommendation">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <img src="images/slide0.jpg" alt="slide0"/>
+                          <div class="carousel-caption">
+                            <h2>糖记甜品</h2>
+                            <p>春节期间满30打八五折</p>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <img src="images/slide1.jpg" alt="slide1"/>
+                          <div class="carousel-caption">
+                            <h2>猫爪火锅</h2>
+                            <p>春节期间满30打八五折</p>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <img src="images/slide2.jpg" alt="slide2"/>
+                          <div class="carousel-caption">
+                            <h2>大鸭梨</h2>
+                            <p>春节期间满30打八五折</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </section>
+
+            <section class="row">
+                <div id="nanoGallery3">
+                  <a href="images/slide0.jpg" data-ngthumb="images/slide0.jpg" data-ngdesc="Description1">糖记甜品</a>
+                  <a href="images/slide1.jpg" data-ngthumb="images/slide1.jpg" data-ngdesc="Image 2 description">猫爪火锅</a>
+                  <a href="images/slide2.jpg" data-ngthumb="images/slide2.jpg">大鸭梨</a>
+                </div>
+              </section>
+
+      </div>
+
+      <footer class="container-fluid">FOOTER</footer>
+
+      <script src="library/js/jquery-3.1.1.min.js"></script>
+      <script src="library/js/bootstrap.js" ></script>
+      <script src="library/js/classie.js" ></script>
+      <script src="library/js/cbpAnimatedHeader.js" ></script>
+      <script src="library/js/jquery.fs.wallpaper.js" ></script>
+      <script src="library/js/jquery.easing.1.3.js"></script>
+      <script src="library/js/jquery-migrate-3.0.0.js"></script>
+      <script src="library/js/jquery.stellar.js"></script>
+      <script src="library/js/wow.min.js"></script>
+      <script src="library/js/jquery.nanogallery.js"></script>
+      <script src="bootstrap-demo.js"></script>
+
+    </body>
+
+
+</html>
